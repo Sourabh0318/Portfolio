@@ -51,6 +51,9 @@ h2,h3,.baker-23{
     background-image: url(../Images/background/hero-1.jpg.webp);
     background-size: cover;
 }
+.mx-sm-auto{
+    margin: 0 auto;
+}
 .skill-percent{
     height: 8px;
 }
@@ -92,7 +95,7 @@ h2,h3,.baker-23{
     background-image: url(../Images/background/man.webp);
     background-size: cover;
     height: 300px;
-    width: 80%;
+    width: 90%;
     margin: 10px 0px;
 }
 .play i{
@@ -188,8 +191,27 @@ hr{
     font-weight: 700;
     text-transform: uppercase;
 }
-
-
+#mail{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-right: -0.3rem !important;
+    border: 0rems;
+}
+.btn-style{
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 1px solid white;
+    border-left: 0px !important;
+    color: white;
+}
+.btn-style:hover{
+    background-color: #fff;
+}
+.fab{
+    font-size: 1.5rem;
+}
 
 /*576 Media Query*/
 @media (min-width: 576px){
