@@ -7,45 +7,55 @@
     --bs-hero-para: 'Roboto', sans-serif;
     --bs-hero-head-color: #212529;
 }
-.navbar li{
+
+.navbar .sub-nav ul li, .sub-nav2 ul li{
     list-style-type: none;
     padding-left: 10px;
     font-family: var(--bs-navbar);
 }
-.navbar a{
+.navbar .sub-nav ul li a, .sub-nav2 ul li a{
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
-.navbar .hot{
+.navbar .sub-nav ul li sup.hot{
     padding: 4px 4px 2px;
-    font-size: 8px;
+    font-size: 10px;
     color: #fff;
     background-color: #ff003c;
     top: -10px;
     right: -4px;
 }
-.sub-nav a:hover{
-    color: darkcyan;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.5s;
+.sub-nav ul li a:hover{
+    color: rgb(253, 51, 1);
+    transition: 0.2s;
 }
-.sub-nav2 i:hover{
+.sub-nav2 ul li a i:hover{
     color: red;
-    font-size: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
 }
-.sub-mobile-nav i:hover{
+.sub-mobile-nav a i{
+    font-size: 1.2rem;
+}
+.sub-mobile-nav a i:hover{
     color: red !important;
-    font-size: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
+}
+.back{
+    background-image: linear-gradient(rgba(75, 72, 72, 0.4),rgba(85, 70, 70, 0.3));
+    height: 300px;
+}
+.back ul{
+    list-style-type: circle;
+}
+.offcanvas-body ul li a:hover{
+    color: #fff !important;
 }
 .hero-section{
     background-color: #eee;
 }
 .content h1{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
     font-family: var(--bs-hero-head);
     color: var(--bs-hero-head-color);
@@ -53,32 +63,24 @@
 .content p{
     font-family: var(--bs-hero-para);
 }
-.hero-section img{
-    height: 800px;
+.shop{
+    margin-bottom: 1rem;
 }
-.shop input{
+.shop-link{
+    cursor: pointer;
     background-color: #4a4a4b;
     border: none;
-    padding: 8px 20px 10px;
+    padding: 10px 20px;
     color: #fff;
     font-family: var(--bs-hero-head);
+    text-decoration: none;
 }
-.shop input:hover {
+.shop-link:hover {
     background-color: #f81f1f;
+    color: #212529;
 }
-.hero-section{
-    overflow: hidden;
-}
-.hero-image-23{
-    animation: scale ease 3s;
-}
-@keyframes scale{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        transform: scale(1.2);
-    }
+.hero-image-23 img{
+    height: 800px;
 }
 .arrival{
     margin: 0 auto;
@@ -87,33 +89,18 @@
 .arrival h2{
     font-family: var(--bs-hero-head);
 }
-.new figcaption{
+.new figure figcaption{
     text-align: center;
     padding-top: 10px;
     font-family: var(--bs-hero-head);
 }
-.new img{
+.new figure img{
     width: 100%;
-}
-.new figure:hover{
-    transform: scale(1.2);
-    transition: 0.5s;
 }
 .watches-53{    
     margin-top: 10% !important;
 }
-.watches-53 img:hover{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    transform: scale(1.1);
-    transition: 0.4s;
-}
-.woman-watch img{
-    width: 100%;
-}
-.black img{
-    width: 100%;
-}
-.smart-watch img{
+.woman-watch img, .black img, .smart-watch img{
     width: 100%;
 }
 .fossil{
@@ -135,30 +122,28 @@
     text-align: center;
     margin: 0 auto;
 }
-.popular figure img{
+.popular div figure img{
     width: 80%;
     height: 200px;
 }
-.popular figure figcaption{
+.popular div figure figcaption{
     margin-top: 40px;
     font-family: var(--bs-hero-head);
 }
-.popular figure figcaption h4{
-    margin-top: 10px;
-}
-.h-line{
+.popular div figure figcaption .h-line{
     width: 80%;
     height: 2px;
     background-color: #f81f1f;
     margin: 10px auto 0px;
 }
-.popular figure img:hover{
-    transform: rotateX(30deg);
-    transition: 0.4s;
+.popular figure figcaption h3{
+    margin-top: 1rem;
 }
+
 .product-23 a{
     background-color: #f81f1f;
     font-family: var(--bs-hero-head);
+    vertical-align: middle;
 }
 .product-23 a:hover{
     background-color: black;
@@ -170,16 +155,12 @@
     height: 400px !important;
     width: 100%;
 }
-.video i{
+.video a i{
     padding-top: 25%;
 }
-.video i:hover{
+.video a i:hover{
     color: orange !important;
     font-size: 60px !important;
-}
-.video iframe{
-    width: 100%;
-    height: 600px;
 }
 .watch-choice-43 h2{
     font-family: var(--bs-hero-head);
@@ -196,22 +177,12 @@
     background-color: #212529;
     color: #eee;
 }
-.choice img{
+.choice img, .choice1 img{
     width: 100%;
     height: 300px;
+    object-fit: cover;
 }
-.choice img:hover{
-    transform: rotate(20deg) scale(0.8);
-    transition: 0.4s;
-}
-.choice1 img{
-    width: 100%;
-    height: 300px;
-}
-.choice1 img:hover{
-    transform: rotate(20deg) scale(0.8);
-    transition: 0.4s;
-}
+
 .payment-method-23{
     background-color: #f81f1f;
     font-family: var(--bs-hero-para);
@@ -253,13 +224,6 @@
     list-style-type: none;
     padding-left: 10px;
 }
-.back{
-    background-image: linear-gradient(rgba(75, 72, 72, 0.4),rgba(85, 70, 70, 0.3));
-    height: 300px;
-}
-.back ul{
-    list-style-type: circle;
-}
 
 @media (min-width: 576px){
     .watches-53 img{
@@ -271,19 +235,33 @@
 }
 
 @media (min-width: 768px){
-    .video i{
+    .video a i{
         padding-top: 14%;
     }
 }
 
 @media (min-width: 1200px){
+    .hero-section{
+        overflow: hidden;
+    }
+    .hero-image-23{
+        animation: scale ease 3s;
+    }
+    @keyframes scale{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            transform: scale(1.2);
+        }
+    }
     .watches-53 img{
         height: 500px;
     }
     .smart-watch img{
         height: 245.5px;
     }
-    .video i{
+    .video a i{
         padding-top: 8%;
     }
 }
