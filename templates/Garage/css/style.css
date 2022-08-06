@@ -147,24 +147,33 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cards-23{
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif !important;
+}
+.cards-23-body{
+    border: 0.5px solid #eee;
+    border-top: 0px;
 }
 
 /*Buy-Rent Section*/
 .buy{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/background/cars1.webp);
-    background-size: 100% 100%;
 }
 .rent{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/background/cars2.webp);
-    background-size: 100% 100%;
+}
+.buy, .rent{
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /*Footer*/
 .foot{
     background-image: url(../images/background/footer-bg.jpg.webp);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 .about-us ul{
     list-style-type: none;
@@ -213,7 +222,10 @@
         width: 40%;
     }
     .cards-23{
-        width: 30%;
+        width: 32%;
+    }
+    .buy, .rent{
+        width: 96%;
     }
 }
 
@@ -230,6 +242,12 @@
     }
     .dream-car-23{
         width: auto;
+    }
+    .space{
+        padding: 1rem 0.5rem 0rem; 
+    }
+    .break{
+        font-size: 0.9rem;
     }
     .sub-buy-dream-car{
         width: 40%;
@@ -250,12 +268,6 @@
     .auto-services{
         width: 30%;
     }
-    .buy{
-        width: 45%;
-    }
-    .rent{
-        width: 45%;
-    }
     .about-us{
         width: 20%;
     }
@@ -272,10 +284,22 @@
     .choose-image img{
         width: 100%;
     }
+    .cards-23{
+        width: 28%;
+    }
+    .buy, .rent{
+        width: 43%;
+    }
 }
 
-@media (min-width: 1200){
+@media (min-width: 1200px){
     .sub-navbar{
         width: 80% !important;
+    }
+    .space{
+        padding: 1rem 1rem 0rem; 
+    }
+    .break{
+        font-size: 16px;
     }
 }
