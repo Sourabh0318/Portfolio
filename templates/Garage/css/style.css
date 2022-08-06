@@ -81,29 +81,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .rent-a-car{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+}
+.rent-a-car:hover{
+    background-color: rgba(235, 19, 19, 0.829);
+    color: white;
 }
 .rent-a-car img{
     margin: 0 auto;
     width: 20%;
     padding-top: 15px;
 }
-.rent-a-car:hover{
-    background-color: rgba(238, 27, 27, 0.829);
-    color: white;
-}
+
 /*Trusted auto section*/
 .trusted-auto{
     background-color: #f7f7f7;
     font-family: Arial, Helvetica, sans-serif;
 }
+.auto{
+    padding: 0 1.4rem;
+}
 .auto-car{
-    width: 100%;
-    
+    width: 100%; 
 }
 .trusted-auto:hover img{
-    animation: rotate 2s ease-in-out;
+    animation: rotate 1s ease-in-out;
 }
 @keyframes rotate{
     50%{
@@ -113,6 +116,19 @@
         transform: scale(1.1);
     }
 }
+/* Car Section */
+.card{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0px;
+}
+.card-body{
+    padding-bottom: 0px;
+}
+.month{
+    margin-bottom: 0.5rem;
+}
+
 /*Choose-Us Section*/
 .Choose-us{
     background-color: #f7f7f7;
@@ -172,7 +188,7 @@
 }
 
 @media (min-width:768px){
-    .bg-dark{
+    .header{
         display: none;
     }
     .navbar ul{
@@ -193,13 +209,16 @@
     .range, .search{
         width: 75%;
     }
+    .card{
+        width: 40%;
+    }
     .cards-23{
         width: 30%;
     }
 }
 
 @media (min-width:992px){
-    .bg-dark{
+    .header{
         display: block;
     }
     .hero-section{
@@ -240,6 +259,10 @@
     .about-us{
         width: 20%;
     }
+    .card{
+        width: 22%;
+    }
+
     .choose-23{
         width: 37%;
     }
