@@ -76,17 +76,34 @@ small, p{
         transform: scale(1.2);
     }
 }
-
-
 .bgblack{
-    transition: 0.4s;
+    padding: 1rem;
+}
+.bgblack p{
+    margin-bottom: 0rem;
 }
 .bgblack:hover{
     background-color: #2a2a2a;
     color: #eeeeee;
-    transform: scale(1.1);
     transition: 1s;
 }
+.BMI-calculation{
+    background-color: #f6214b;
+    height: auto;
+}
+.BMI-calculation input{
+    background-color: #f6214b;
+    outline: transparent;
+}
+.BMI-calculation input::placeholder{
+    color: #eeeeee;
+}
+
+.calculation-23 a:hover{
+    background-color: #2a2a2a !important;
+    color: white;
+}
+
 .transaction{
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../image/illustrations/callto-bg.jpg.webp);
     background-size: 100% 100%;
@@ -108,20 +125,7 @@ small, p{
 .be-icon i{
     font-size: 35px;
 }
-.BMI-calculation{
-    background-color: #f6214b;
-    height: 400px;
-}
-.BMI-calculation input{
-    background-color: #f6214b;
-}
-.calculation-23 input:hover{
-    border: 2px solid violet !important;
-}
-.calculation-23 a:hover{
-    background-color: #2a2a2a !important;
-    color: white;
-}
+
 .gym-course:hover{
     transform: scale(1.1);
     transition: 0.4s;
@@ -247,7 +251,7 @@ small, p{
         padding: 6rem 0rem;
     }
     .BMI-calculation{
-        height: 300px;
+        height: auto;
     }
     .transaction a{
         margin-left: 35%;
@@ -261,8 +265,11 @@ small, p{
     .hero-section-content{
         padding: 12.6rem 0rem;
     }
+    .bgblack{
+        box-shadow: 0px 0px 48px 1px pink !important;
+    }
     .BMI-calculation{
-        height: 300px;
+        height: auto;
     }
     .common-repair{
         height: 306px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,7 +63,7 @@
             <nav class='d-block d-md-none mob-nav p-3'>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="logo">
-                        <a href="#" class="text-decoration-none"><img src="image/illustrations/logo.png.webp" alt=""></a>
+                        <a href="#" class="text-decoration-none"><img src="image/illustrations/logo.png.webp" alt="logo"></a>
                     </div>
 
                     <div>
@@ -96,46 +96,68 @@
             <section class="hero-section text-center">
                 <div class="hero-section-content">
                     <h1 class="text-white fw-bold display-3 fade-in">Real Fitness</h1>
-                    <h2 class="text-white fw-bold display-4 fade-in">Depends on exercise</h2>
+                    <h1 class="text-white fw-bold display-3 fade-in">Depends on exercise</h1>
                     <small class="text-white fs-6 fade-in">SHAPE YOUR BODY WELL.</small>
                 </div>
             </section>
 
             <!--Start of Regular Exercise-->
-            <section class="container text-center mt-5">
+            <section class="text-center mt-5">
                 <h2 class="fw-bold">We care about what we offer</h2>
-                <small class="text-muted d-block fs-6">Who are in extremely love with eco friendly system.</small>
-                <div class="row justify-content-center mt-5">
-                    <!--Card 1-->
-                    <div class="col-10 col-sm-6 col-md-4 col-lg-3 shadow bgblack">
-                        <img src="image/illustrations/care1.png" alt="">
-                        <h4 class="mt-2">Regular Exercise</h4>
-                        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                <small class="text-muted d-block">Who are in extremely love with eco friendly system.</small>
+                <div class="container">
+                    <div class="row justify-content-around mt-5">
+                        <!--Card 1-->
+                        <div class="col-10 col-sm-6 col-md-4 col-lg-3 bgblack shadow shadow-lg-none">
+                            <figure>
+                                <img src="image/illustrations/care1.png" alt="watch with dumble">
+                                <figcaption><h3 class="mt-2 fs-4">Regular Exercise</h3></figcaption>
+                            </figure>
+                            <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+
+                        <!--Card 2-->
+                        <div class="col-10 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 bgblack shadow shadow-lg-none">
+                            <figure>
+                                <img src="image/illustrations/care2.png" alt="Shoes">
+                                <figcaption>
+                                    <h3 class="mt-2 fs-4">Training on the go</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+
+                        <!--Card 3-->
+                        <div class="col-10 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-0 bgblack shadow shadow-lg-none">
+                            <figure>
+                                <img src="image/illustrations/care3.webp" alt="back-machine">
+                                <figcaption>
+                                    <h3 class="mt-2 fs-4">Body Building Packages</h3>        
+                                </figcaption>
+                            </figure>
+                            <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+                        </div>
                     </div>
-                    <!--Card 2-->
-                    <div class="col-10 col-sm-6 col-md-4 col-lg-3 shadow ms-xl-3 mt-4 mt-sm-0 bgblack">
-                        <img src="image/illustrations/care2.png" alt="">
-                        <h4 class="mt-2">Training on the go</h4>
-                        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </section>
+
+                <!--BMI Calculation-->
+                <section class="text-center mt-5 BMI-calculation">
+                    <div class="container p-5">
+                        <h2 class="text-white fw-bold text-capitalize">Calculate your body mass index</h2>
+                        <small class="text-white">Who are in extremely love with eco friendly system.</small>
+                        <div class="mt-2 mt-lg-4 calculation-23">
+                            <label for="height" class="sr-only">Enter Height</label>
+                            <input id="height" class="my-2 my-md-0 py-2 px-3 text-white border" type="text" placeholder="Your height(Inches)">
+
+                            <label for="weight" class="sr-only">Enter Weight</label>
+                            <input id="weight" class="my-2 px-3 py-2 my-md-0 ms-lg-3 text-white border" type="text" placeholder="Your Weight(lbs)">
+
+                            <a href="#" class="btn bg-white rounded-pill px-3 ms-lg-3 my-2 my-md-0 py-2" role="button">Calculate your BMI</a>
+                        </div>
                     </div>
-                    <!--Card 3-->
-                    <div class="col-10 col-sm-6 col-md-4 col-lg-3 shadow ms-xl-3 mt-4 mt-md-0 bgblack">
-                        <img src="image/illustrations/care3.webp" alt="">
-                        <h4 class="mt-2">Body Building Packages</h4>
-                        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
-                    </div>
-                </div>
-            </section>
-            <!--BMI Calculation-->
-            <section class="text-center BMI-calculation mt-5">
-                <h3 class="pt-5 text-white fw-bold text-capitalize">Calculate your body mass index</h3>
-                <small class="text-white fs-6">Who are in extremely love with eco friendly system.</small>
-                    <div class="mt-5 calculation-23">
-                        <input class="py-2 px-3 text-white border" type="text" placeholder="Your height(Inches)">
-                        <input class="my-2 px-3 py-2 my-md-0 ms-lg-3 text-white border" type="text" placeholder="Your Weight(lbs)">
-                        <a href="#" class="btn bg-white rounded-pill px-3 ms-lg-3 py-2" role="button">Calculate your BMI</a>
-                    </div>
-            </section>
+                </section>
+
             <!--Courses Section-->
             <section class="container mt-5 text-lg-center" >
                 <h2 class="fw-bold">Top Courses That are open for Students</h2>
