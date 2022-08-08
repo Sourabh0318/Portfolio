@@ -5,11 +5,32 @@
     --bs-hero-head: 'Poppins', sans-serif;
 }
 
-.nav-start small{
+/* Header section */
+.contact-number {
     font-family: var(--bs-navbar1);
+}
+.contact-number figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+hr{
+    color: #474444;
+    height: 1px;
+}
+.caption small{
+    font-family: var(--bs-navbar1);
+}
+
+/* navbar */
+.navbar{
+    padding: 1.5rem 0rem;
 }
 .navbar ul{
     list-style-type: none;
+    margin-bottom: 0rem;
+    padding: 0px;
 }
 .navbar ul li a{
     font-size: 12px;
@@ -25,13 +46,24 @@
 .navbar ul li:hover span{
     width: 100%;
 }
-.contact-number {
+
+/* Common CSS */
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--bs-hero-head);
+}
+small, p{
     font-family: var(--bs-navbar1);
 }
+
+/* Hero-section */
 .hero-section{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../image/background/header-bg.jpg.webp);
-    background-size: 100% 100%;
-    height: 200px;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.hero-section-content{
+    padding: 3rem 0rem;
 }
 .fade-in{
     animation: fade-in ease 3s;
@@ -44,16 +76,8 @@
         transform: scale(1.2);
     }
 }
-.hero-section h1{
-    padding-top: 10%;
-    font-family: var(--bs-hero-head);
-}
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--bs-hero-head);
-}
-small, p{
-    font-family: var(--bs-navbar1);
-}
+
+
 .bgblack{
     transition: 0.4s;
 }
@@ -198,10 +222,6 @@ small, p{
 .pricing-23{
     background-color: #f9f9ff;
 }
-hr{
-    color: #eeeeee;
-    height: 1px;
-}
 .back{
     background-image: linear-gradient(rgba(238, 113, 29, 0.945),rgba(194, 85, 85, 0.918));
     width: 80%;
@@ -214,11 +234,8 @@ hr{
 }
 
 @media (min-width: 576px){
-    .hero-section{
-        height: 300px;
-    }
-    .hero-section h1{
-        padding-top: 13%;
+    .hero-section-content{
+        padding: 4rem;
     }
     .common-repair{
         height: 956px;
@@ -226,11 +243,8 @@ hr{
     
 }
 @media (min-width: 768px){
-    .hero-section{
-        height: 400px;
-    }
-    .hero-section h1{
-        padding-top: 18%;
+    .hero-section-content{
+        padding: 6rem 0rem;
     }
     .BMI-calculation{
         height: 300px;
@@ -244,11 +258,8 @@ hr{
 }
 
 @media (min-width: 992px){
-    .hero-section{
-        height: 600px;
-    }
-    .hero-section h1{
-        padding-top: 15%;
+    .hero-section-content{
+        padding: 12.6rem 0rem;
     }
     .BMI-calculation{
         height: 300px;

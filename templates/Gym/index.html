@@ -17,78 +17,90 @@
     </head>
     <body>
         <!--Start of wrapper text-->
-        <section class="wrapper overflow-hidden">
-            <!--Desktop View Navbar-->
-            <nav class="container-fluid m-0 p-0 d-none d-md-block">
-                <div class="d-none d-md-flex justify-content-between align-items-center">
-                    <div class="ps-5 ms-xl-5 py-2 col-md-4 col-lg-3 col-xl-2 nav-start">
-                        <small>We believe we helps people for happier lives</small>
-                    </div>
+        <section class="wrapper">
+            <!-- Header -->
+            <header class="d-none d-md-block head">
+                <div class="container">
+                    <div class="d-md-flex justify-content-between align-items-center">
+                        <div class="py-2 col-md-4 col-lg-3 col-xl-2 caption">
+                            <small>We believe we helps people for happier lives</small>
+                        </div>
 
-                    <div class="py-2">
-                        <a href="#" class="text-decoration-none">
-                        <img src="image/illustrations/logo.png.webp" alt="logo">
-                        </a>
-                    </div>
-
-                    <div class="px-3 py-2 me-5 mb-0">
-                        <div class="contact-number">
-                            <a href="" class="text-decoration-none pe-2 d-md-none d-lg-inline text-dark">+880 123 12 658 439</a>
-                            <a href="+880 123 12 658 439">     
-                            <span class="text-decoration-none pe-3 py-4 bg-danger"><img src="image/illustrations/telephone (1).png" class="ps-3" alt=""></span>
+                        <div class="py-2">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/illustrations/logo.png.webp" alt="logo">
                             </a>
+                        </div>
+
+                        <div class="contact-number">
+                            <figure>
+                                <figcaption> <a href="" class="text-decoration-none pe-2 text-dark">+880 123 12 658 439</a></figcaption>
+                                <a href="+880 123 12 658 439" class="text-decoration-none p-4 px-3 bg-danger"><img src="image/illustrations/telephone (1).png" alt="Call button"></a>
+                            </figure>
                         </div>
                     </div>
                 </div>
-                <hr class="mt-0">
-                <div class="d-none d-md-flex justify-content-center navbar">
-                    <ul class="d-flex justify-content-lg-between justify-content-md-evenly min-vw-50">
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">Home</a><span class="underline-23"></span></li>
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">We Offer</a><span class="underline-23"></span></li>
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">Top Course</a><span class="underline-23"></span></li>
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">Schedule</a><span class="underline-23"></span></li>
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">Trainer</a><span class="underline-23"></span></li>
-                        <li class="pe-md-3"><a href="#" class="text-decoration-none text-dark fs-6">Plan</a><span class="underline-23"></span></li>
-                        <li><a href="#" class="text-decoration-none text-dark fs-6">Pages</a><span class="underline-23"></span></li>
+            </header>
+
+            <hr class="m-0">
+
+            <!-- Navbar -->
+            <nav class="container d-none d-md-block">
+                <div class="d-flex justify-content-center align-items-center navbar">
+                    <ul class="d-flex">
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Home</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">We Offer</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Top Course</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Schedule</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Trainer</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Plan</a><span class="underline-23"></span></li>
+                        <li class="px-md-2"><a href="#" class="text-decoration-none text-dark fs-6">Pages</a><span class="underline-23"></span></li>
                     </ul>
                 </div>
             </nav>
-            <!--Mobile View Navbar-->
-            <nav class='mob-nav d-flex justify-content-between d-lg-none d-md-none px-3 py-2'>
-                <div class="logo">
-                    <a href="#" class="text-decoration-none"><img src="image/illustrations/logo.png.webp" alt=""></a>
-                </div>
 
-                <div>
-                    <a href="!#" data-bs-target="#mob-nav" data-bs-toggle="offcanvas" class="logo">
-                        <i class="fas fa-bars text-dark"></i>
-                    </a>
-                    <!--Offcanvas-->
-                    <div class="offcanvas offcanvas-end back" id="mob-nav">
-                        <div class="offcanvas-header">
-                            <h4 class="offcanvas-title"><img src="image/illustrations/logo.png.webp" alt=""></h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                        </div>
-                        <div class="offcanvas-body mx-auto">
-                            <ul>
-                                <li><a href="#" class="text-decoration-none text-white">Home</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">We Offer</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">Top Courses</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">Schedule</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">Trainer</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">Plan</a></li>
-                                <li><a href="#" class="text-decoration-none text-white">Pages</a></li>
-                            </ul>
+            <!--Mobile View Navbar-->
+            <nav class='d-block d-md-none mob-nav p-3'>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="#" class="text-decoration-none"><img src="image/illustrations/logo.png.webp" alt=""></a>
+                    </div>
+
+                    <div>
+                        <a href="!#" data-bs-target="#mob-nav" data-bs-toggle="offcanvas" class="logo">
+                            <i class="fas fa-bars text-dark fs-5"></i>
+                        </a>
+                        <!--Offcanvas-->
+                        <div class="offcanvas offcanvas-end back" id="mob-nav">
+                            <div class="offcanvas-header">
+                                <h4 class="offcanvas-title"><img src="image/illustrations/logo.png.webp" alt=""></h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body mx-auto">
+                                <ul>
+                                    <li><a href="#" class="text-decoration-none text-white">Home</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">We Offer</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">Top Courses</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">Schedule</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">Trainer</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">Plan</a></li>
+                                    <li><a href="#" class="text-decoration-none text-white">Pages</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
-            <!--Start of hero-section-->
+
+            <!-- Hero-section -->
             <section class="hero-section text-center">
-                <h1 class="text-white fw-bold display-3 fade-in">Real Fitness</h1>
-                <h2 class="text-white fw-bold display-4 fade-in">Depends on exercise</h2>
-                <small class="text-white fs-5 fade-in">SHAPE YOUR BODY WELL.</small>
+                <div class="hero-section-content">
+                    <h1 class="text-white fw-bold display-3 fade-in">Real Fitness</h1>
+                    <h2 class="text-white fw-bold display-4 fade-in">Depends on exercise</h2>
+                    <small class="text-white fs-6 fade-in">SHAPE YOUR BODY WELL.</small>
+                </div>
             </section>
+
             <!--Start of Regular Exercise-->
             <section class="container text-center mt-5">
                 <h2 class="fw-bold">We care about what we offer</h2>
