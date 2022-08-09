@@ -103,6 +103,58 @@ small, p{
     background-color: #2a2a2a !important;
     color: white;
 }
+.gym-course:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.gym-course-1{
+    background-image: url(../image/illustrations/Course1.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+.gym-course-2{
+    background-image: url(../image/illustrations/Course2.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+.gym-course-3{
+    background-image: url(../image/illustrations/Course3.webp);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+.gym-course-4{
+    background-image: url(../image/illustrations/Course4.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+.gym-course-5{
+    background-image: url(../image/illustrations/Course5.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+.gym-course-6{
+    background-image: url(../image/illustrations/Course6.jpg);
+    background-size: 100% 100%;
+    height: 150px;
+    position: relative;
+}
+
+.gym-course-1 a, .gym-course-2 a, .gym-course-3 a, .gym-course-4 a, .gym-course-5 a, .gym-course-6 a{
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    text-decoration: none;
+    background-color: #f6214b;
+    color: #fff;
+    padding: 10px 40px;
+}
 
 .transaction{
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../image/illustrations/callto-bg.jpg.webp);
@@ -126,100 +178,7 @@ small, p{
     font-size: 35px;
 }
 
-.gym-course:hover{
-    transform: scale(1.1);
-    transition: 0.4s;
-}
-.gym-course-1{
-    background-image: url(../image/illustrations/Course1.jpg);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-1 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
-.gym-course-2{
-    background-image: url(../image/illustrations/Course2.jpg);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-2 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
-.gym-course-3{
-    background-image: url(../image/illustrations/Course3.webp);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-3 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
-.gym-course-4{
-    background-image: url(../image/illustrations/Course4.jpg);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-4 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
-.gym-course-5{
-    background-image: url(../image/illustrations/Course5.jpg);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-5 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
-.gym-course-6{
-    background-image: url(../image/illustrations/Course6.jpg);
-    background-size: 100% 100%;
-    height: 150px;
-}
-.gym-course-6 small{
-    display: block;
-    background-color: #f6214b;
-    color: #fff;
-    padding: 10px 40px;
-    margin-left: 20px;
-    margin-top: 100px;
-    position: absolute;
-    display: flex;
-}
+
 .common-repair{
     height: 796px;
 }
@@ -271,6 +230,9 @@ small, p{
     .BMI-calculation{
         height: auto;
     }
+    .gym-course-1, .gym-course-2, .gym-course-3, .gym-course-4, .gym-course-4, .gym-course-5, .gym-course-6{
+        height: 200px;
+    }
     .common-repair{
         height: 306px;
     }
@@ -285,6 +247,9 @@ small, p{
     }
 }
 @media (min-width: 1200px){
+    .gym-course-1, .gym-course-2, .gym-course-3, .gym-course-4, .gym-course-4, .gym-course-5, .gym-course-6{
+        height: 250px;
+    }
     .sub-common{
         margin-left: 0% !important;
         padding-left: 0% !important;
