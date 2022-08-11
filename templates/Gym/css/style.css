@@ -192,6 +192,12 @@ small, p{
 .schedule td{
     vertical-align: middle;
 }
+.pricing-23{
+    background-color: #f9f9ff;
+}
+.purchase:hover{
+    background-color: #D60f44;
+}
 
 .transaction{
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../image/illustrations/callto-bg.jpg.webp);
@@ -206,16 +212,12 @@ small, p{
     margin-left: 10%;
 }
 
-.purchase:hover{
-    background-color: #D60f44;
-}
+
 .be-icon i{
     font-size: 35px;
 }
 
-.pricing-23{
-    background-color: #f9f9ff;
-}
+
 .back{
     background-image: linear-gradient(rgba(238, 113, 29, 0.945),rgba(194, 85, 85, 0.918));
     width: 80%;
@@ -223,9 +225,7 @@ small, p{
 .back ul{
     list-style-type: none;
 }
-.trainers figure img:hover{
-    transform: rotate(360deg);
-}
+
 
 @media (min-width: 576px){
     .hero-section-content{
