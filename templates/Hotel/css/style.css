@@ -133,13 +133,13 @@ a{
 .rooms{
     background-color: #ccc;
 }
-.rooms h1{
+.rooms h2{
     text-align: center;
     font-weight: 600;
     font-size: 25px;
     font-family: 'Playfair Display',Arial, serif;
 }
-.image h4,p{
+.image h3,p{
     text-align: center;
     font-family: var(--bs-hero-input);
 }

@@ -21,7 +21,7 @@
     --light: #f8f9fa;
     --dark: #343a40;
 }
-.navbar ul{
+.navbar li{
     list-style-type: none;
 }
 .navbar li a{
